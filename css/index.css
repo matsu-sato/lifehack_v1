@@ -1,0 +1,119 @@
+
+.jumbotron {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+fieldset div {
+    margin-bottom: 20px;
+}
+
+fieldset label {
+    display: block;
+}
+
+fieldset input[type="text"],
+fieldset textarea {
+    width: 100%;
+    margin-top: 5px;
+}
+
+fieldset input[type="submit"] {
+    display: inline-block;
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #4285f4;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+fieldset input[type="submit"]:hover {
+    background-color: #357ae8;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    /* カードを折り返す */
+    gap: 20px;
+    /* カード間の隙間 */
+    margin: 20px 0;
+    /* 上下のマージン */
+}
+
+.card {
+    background-color: #fff;
+    /* カードの背景色 */
+    border: 1px solid #ccc;
+    /* カードの枠線 */
+    border-radius: 8px;
+    /* 角を丸くする */
+    padding: 15px;
+    /* 内側の余白 */
+    width: calc(30% - 20px);
+    /* 幅を調整（3カラム表示の場合） */
+    box-shadow: 0 2px 5pxrgba(0, 0, 0, 0.1);
+    /* 影の効果 */
+    transition: transform 0.2s;
+    /* ホバー時のアニメーション */
+}
+
+.card:hover {
+    transform: scale(1.05);
+    /* ホバー時に少し大きくなる */
+}
+
+.post-image {
+    max-width: 100%;
+    /* 画像をカードの幅に合わせる */
+    height: auto;
+    /* 高さを自動調整 */
+    border-radius: 5px;
+    /* 画像の角を丸くする */
+}
+
+.detail-link {
+    display: inline-block;
+    /* リンクをブロック要素に */
+    margin-top: 10px;
+    /* 上にマージンを追加 */
+    padding: 10px 15px;
+    /* 内側の余白 */
+    background-color: #007bff;
+    /* リンクの背景色 */
+    color: #fff;
+    /* リンクの文字色 */
+    text-decoration: none;
+    /* 下線を消す */
+    border-radius: 5px;
+    /* リンクの角を丸くする */
+}
+
+.detail-link:hover {
+    background-color: #0056b3;
+    /* ホバー時の色を変更 */
+}
+
+.delete-link {
+    display: inline-block;
+    /* リンクをブロック要素に */
+    margin-top: 10px;
+    /* 上にマージンを追加 */
+    padding: 10px 15px;
+    /* 内側の余白 */
+    background-color: #cb0f0f;
+    /* リンクの背景色 */
+    color: #fff;
+    /* リンクの文字色 */
+    text-decoration: none;
+    /* 下線を消す */
+    border-radius: 5px;
+    /* リンクの角を丸くする */
+}
+.delete-link:hover {
+    background-color: #641111;
+    /* ホバー時の色を変更 */
+}
